@@ -1,0 +1,33 @@
+.nav-container{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+.nav-title{
+  font: var(--brand);
+  text-transform: capitalize;
+  margin: 0;
+}
+.nav-links{
+  list-style: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-link{
+  text-decoration: none;
+  color: var(--mainblack);
+  font: var(--navigation);
+}
+@media screen and (min-width: 1024px){
+  .nav-title{
+    font-size: 2.25rem;
+  }
+  .nav-links{
+    display: flex;
+    gap: 2.1875rem;
+  }
+}

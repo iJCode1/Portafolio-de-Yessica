@@ -1,0 +1,7 @@
+.container{
+  max-inline-size: 70rem;
+  inline-size: 100%;
+  margin: 0 auto;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}

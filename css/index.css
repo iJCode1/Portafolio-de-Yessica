@@ -1,30 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Lora:wght@400;700&family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&family=Karla:ital,wght@1,700&display=swap');
+@import './container.css';
+@import './nav.css';
 :root{
-  --primary: #5928e5; 
-  --white: #ffffff; 
-  --secondary: #fed9da; 
-  --black: #000000; 
-  --background: #0f0e17; 
-  --headline: #fffffe; 
-  --paragraph: #a7a9be; 
-  --secondary: #f25f4c; 
-  --tertiary: #e53170; 
-  --button-background: #ff8906; 
-  --button-text: #fffffe; 
-  --headline1: 700 4rem/5rem Nunito; 
-  --headline2: 700 3rem/3.5rem Nunito; 
-  --headline3: 700 2.5rem/3rem Nunito; 
-  --headline4: 400 2rem/2.5rem Lora; 
-  --headline5: 700 1.5rem/2rem Nunito; 
-  --button: 700 1rem/1.5rem Nunito; 
-  --caption: 400 0.75rem/1.375rem Cantarell; 
-  --body1-regular: 400 1.5rem/2.5rem Lora; 
-  --body1-bold: 700 1.5rem/2.5rem Lora; 
-  --body2-regular: 400 1.25rem/2rem Lora; 
-  --body2-bold: 700 1.25rem/2rem Lora; 
+  --mainblack: #181717; 
+  --maingray: #606060; 
+  --mainwhite: #f3f3f3; 
+  --secondary: #2429af; 
+  --bg: #faf7f0; 
+  --brown: #883f16;
+  --heading-1: 500 3.75rem/4rem DM Sans; 
+  --heading-2: 500 2.5rem/3rem DM Sans; 
+  --body: 400 1.125rem/1.5rem Inter; 
+  --navigation: 400 1.3125rem/4.5rem DM Sans; 
+  --sub-text: 400 0.875rem/1.375rem Inter; 
+  --button: 500 1.125rem/1.5rem Inter; 
+  --heading-3: 400 2rem/3rem DM Sans; 
+  --heading-4: 400 1.125rem/1.8125rem DM Sans; 
+  --subheader-link: 500 1.125rem/1.5rem Inter; 
+  --brand: 700 1.5rem/ 1.5rem Karla;
 }
 body{
   font: var(--headline2);
-  background-color: var(--white);
+  background-color: var(--bg);
   margin: 0;
 }
