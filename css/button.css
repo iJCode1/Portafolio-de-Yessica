@@ -1,0 +1,22 @@
+.button{
+  background-color: var(--mainblack);
+  color: var(--mainwhite);
+  text-decoration: none;
+  font: var(--button);
+  display: inline-block;
+  text-align: center;
+  padding: .75rem 2rem;
+  border-radius: 2rem;
+  transition: transform .2s;
+}
+.button.button-secondary{
+  font: var(--subheader-link);
+  background-color: transparent;
+  color: var(--mainblack);
+  border-block-end: 1px solid;
+  border-radius: 0;
+  padding: 0;
+}
+.button:active{
+  transform: scale(.9);
+}

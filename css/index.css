@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&family=Karla:ital,wght@1,700&display=swap');
 @import './container.css';
 @import './logo.css';
+@import './button.css';
 @import './nav.css';
+@import './hero.css';
 @import './footer.css';
 :root{
   --mainblack: #181717; 
