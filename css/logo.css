@@ -1,0 +1,21 @@
+.logo{
+  font: var(--brand);
+  text-transform: capitalize;
+  margin: 0;
+  text-decoration: none;
+  color: var(--mainblack);
+  transition: transform .2s;
+  display: inline-block;
+  cursor: pointer;
+}
+.logo:hover{
+  text-decoration: underline;
+}
+.logo:active{
+  transform: scale(.9);
+}
+@media screen and (min-width: 1024px){
+  .logo{
+    font-size: 2.25rem;
+  }
+}
