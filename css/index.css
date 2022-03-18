@@ -5,6 +5,7 @@
 @import './nav.css';
 @import './hero.css';
 @import './projects.css';
+@import './skills.css';
 @import './footer.css';
 :root{
   --mainblack: #181717; 
