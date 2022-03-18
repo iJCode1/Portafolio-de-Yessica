@@ -4,6 +4,7 @@
 @import './button.css';
 @import './nav.css';
 @import './hero.css';
+@import './projects.css';
 @import './footer.css';
 :root{
   --mainblack: #181717; 
@@ -13,7 +14,7 @@
   --bg: #faf7f0; 
   --brown: #883f16;
   --heading-1: 500 3.75rem/4rem DM Sans; 
-  --heading-2: 500 2.5rem/3rem DM Sans; 
+  --heading-2: 400 2.5rem/3rem DM Sans; 
   --body: 400 1.125rem/1.5rem Inter; 
   --navigation: 400 1.3125rem/4.5rem DM Sans; 
   --sub-text: 400 0.875rem/1.375rem Inter; 
@@ -27,4 +28,7 @@ body{
   font: var(--headline2);
   background-color: var(--bg);
   margin: 0;
+}
+html{
+  scroll-behavior: smooth;
 }

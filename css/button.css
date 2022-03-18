@@ -6,7 +6,7 @@
   display: inline-block;
   text-align: center;
   padding: .75rem 2rem;
-  border-radius: 2rem;
+  border-radius: .75rem;
   transition: transform .2s;
 }
 .button.button-secondary{
@@ -19,4 +19,7 @@
 }
 .button:active{
   transform: scale(.9);
+}
+.button:hover{
+  opacity: .6;
 }
