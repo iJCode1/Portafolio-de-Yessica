@@ -1,0 +1,25 @@
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-block-start: 1rem;
+  padding-block-end: 4rem;
+}
+.contact-title{
+  margin: 0;
+  font: var(--heading-2);
+  color: var(--mainblack);
+}
+.contact-email{
+  color: var(--brown);
+  font: var(--heading-3);
+  margin: 0;
+  text-decoration: none;
+  transition: transform .2s;
+}
+.contact-email:hover{
+  text-decoration: underline;
+}
+.contact-email:active{
+  transform: scale(.9);
+}

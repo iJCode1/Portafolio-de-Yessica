@@ -6,6 +6,7 @@
 @import './hero.css';
 @import './projects.css';
 @import './skills.css';
+@import './contact.css';
 @import './footer.css';
 :root{
   --mainblack: #181717; 
